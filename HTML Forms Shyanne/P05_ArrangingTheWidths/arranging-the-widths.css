@@ -1,0 +1,17 @@
+form {
+  width: 300px;
+  color: #2D2D2D;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #888;
+}
+
+.contact {
+  width: 400px;
+  margin: 40px auto;
+  padding: 10px 20px 20px;
+  background: #F7F7F7;
+  border: 1px solid #eee;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 60px;
+  font-size: 1.8em;
+}
+
+.note {
+  margin: 0 0 10px;
+  padding: 0 0 8px 60px;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 90px;
+  padding: 8px 8px 0 0;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #888;
+  font-size: 0.8em;
+  box-sizing: border-box;
+}
+
+textarea { height: 80px; }
+
+input[type="submit"] {
+  width: 157px;
+  margin-left: 98px;
+  padding: 10px;
+  border: none;
+  background: #E27575;
+  color: #FFF;
+  box-shadow: 0 2px 3px #bbb;
+  cursor: pointer;
+}
